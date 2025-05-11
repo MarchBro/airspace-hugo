@@ -1,17 +1,17 @@
-######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/airspace/examplesite/"
-title = "Airspace | Creative Agency Hugo Template"
+######################## конфигурация по умолчанию####################
+baseURL = "https://mariupolsvarka.ru"
+title = "Mariupolsvarka | Услуги сварщика в Мариуполе"
 theme = "airspace-hugo"
-# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-timeZone = "America/New_York"
+# Часовой пояс по умолчанию для временных меток; используйте любое допустимое имя базы данных из: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
+timeZone = "Russia/Moscow"
 # post pagination
 pagination.pagerSize = 6 # see https://gohugo.io/extras/pagination/
 # post excerpt
 summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
 # google analytics
 # disqus short name
-disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
-# disable language
+disqusShortname = "themefisher-template" # мы используем disqus для отображения комментариев в сообщениях блога. Чтобы установить disqus, пожалуйста, следуйте этому руководству: https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+# отключить язык
 disableLanguages = [
 ] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage

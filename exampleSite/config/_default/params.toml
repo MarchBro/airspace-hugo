@@ -1,33 +1,33 @@
-#################### default parameters ################################
+#################### стандартные параметры ################################
 # favicon
 favicon = "images/favicon.png"
 # logo
 logo = "images/logo.png"
-# use `px` or `x` with logo_width, example: "100px".
+# используйте "px" или "x" с logo_width, например: "100 пикселей" "100px".
 # Note: logo_width is not work with .svg file
 logo_width = "150px"
-# logo text will only show when logo is missing.
-logo_text = "Airspace"
-# navbar fixed to top
+# текст логотипа будет отображаться только в том случае, если логотип отсутствует.
+logo_text = "MariupolSvarka"
+# навигационная панель закреплена сверху
 navbar_fixed = false
 # OpenGraph / Twitter Card metadata
-description = "This is meta description"
-author = "Themefisher"
-image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
-# Whether to display text descriptors (like "E-mail: ", "Phone: ") before the address block elements
+description = "Услуги сварщика в г. Мариуполе. Выполним все виды сварочных работ"
+author = "March Bro"
+image = "images/logo.png" # это изображение будет использоваться в качестве запасного, если на странице нет собственного изображения
+# Следует ли отображать текстовые дескрипторы (например, "E-mail: ", "Phone: ") перед элементами блока адресов
 address_descriptors = false
 # contact info
-phone = "0124857985320"
-email = "demo@email.com"
+phone = "+7(949)510-27-77"
+email = "mariupolsvarka@ya.ru"
 location = """
-**Themefisher**  
-North Main Street  
-Brooklyn, New South Wales  
-Australia
+**🅼🄰🅁🄸🅄🄿🄾🄻🆂🅅🄰🅁🄺🄰**  
+Мариуполь 
+Ростовская область 
+Россия 
 """
 # copyright
 copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
-# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+# пользовательский скрипт в заголовке, пример: custom_script= "<script>console.log(\"Hello World\")</script>" 
 custom_script= ""
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
@@ -36,11 +36,11 @@ recaptcha_site_key = "xxx-xxxxxxxxxxxxxxxxxxxxxxxx"
 
 [contact.form]
 enable = true
-# Whether to use [Netlify Forms](https://docs.netlify.com/forms/setup/)
+# Следует ли использовать [Netlify Forms](https://docs.netlify.com/forms/setup/)
 use_netlify = true
-# Whether to use recaptch v3 in form
+# Следует ли использовать капчу v3 в форме
 use_recaptcha = true
-# Form action
+# Сформируйте действие
 ## Fill in your Form ID URL for Formspree.io, e.g. `https://formspree.io/f/{form_id}`
 ## Ignored if `use_netlify = true` (custom [success page](https://docs.netlify.com/forms/setup/#success-messages) is already included) 
 action = "#"
@@ -53,7 +53,7 @@ success_image = "images/paper-plane.svg"
 enable = true
 preloader = "" # use jpg, png, svg or gif format.
 
-# Navigation button
+# Навигационная кнопка
 [navigation_button]
 enable = true
 label = "get a quote"
@@ -90,18 +90,18 @@ baidu = "" # Your verification code
 
 # google map
 [gmap]
-enable = true
-gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
+enable = false
+# gmap_api = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
+# map_latitude = "51.5223477"
+# map_longitude = "-0.1622023"
+# map_marker = "images/marker.png"
 
 # cookies
 [cookies]
 enable = false
 expire_days = 2
-content = "This site uses cookies. By continuing to use this website, you agree to their use."
-button = "I Accept"
+content = "Этот сайт использует файлы cookie. Продолжая пользоваться данным сайтом, вы соглашаетесь на их использование."
+button = "Я согласен"
 
 ######################## sidebar widgets #########################
 [widgets]
