@@ -4,7 +4,7 @@ favicon = "images/favicon.png"
 # logo
 logo = "images/logo.png"
 # используйте "px" или "x" с logo_width, например: "100 пикселей" "100px".
-# Note: logo_width is not work with .svg file
+# Примечание: logo_width не работает с файлом .svg
 logo_width = "150px"
 # текст логотипа будет отображаться только в том случае, если логотип отсутствует.
 logo_text = "MariupolSvarka"
@@ -20,10 +20,8 @@ address_descriptors = false
 phone = "+7(949)510-27-77"
 email = "mariupolsvarka@ya.ru"
 location = """
-**🅼🄰🅁🄸🅄🄿🄾🄻🆂🅅🄰🅁🄺🄰**  
-Мариуполь 
-Ростовская область 
-Россия 
+**Мариуполь**  
+Россия
 """
 # copyright
 copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
