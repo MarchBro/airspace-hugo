@@ -9,7 +9,7 @@ logo_width = "150px"
 # текст логотипа будет отображаться только в том случае, если логотип отсутствует.
 logo_text = "MariupolSvarka"
 # навигационная панель закреплена сверху
-navbar_fixed = false
+navbar_fixed = true
 # OpenGraph / Twitter Card metadata
 description = "Услуги сварщика в г. Мариуполе. Выполним все виды сварочных работ"
 author = "March Bro"

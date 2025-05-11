@@ -1,14 +1,14 @@
 ---
 ############################### Banner ##############################
 banner:
-  enable: true
+  enable: false
   bg_image: "images/slider-bg.jpg"
   bg_overlay: true
-  title: "A Digital Marketing <br/> & Design Agency"
+  title: "Услуги сварщика<br/> в Мариуполе<br/> -ручная сварка<br/> -полуавтомат<br/> -монтажные работы"
   content: "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
   button:
     enable: true
-    label: "Discover Our Project"
+    label: "Все услуги"
     link: "project/"
 
 ############################# About #################################
@@ -24,7 +24,7 @@ about:
 portfolio:
   enable: true
   bg_image: "images/feature-bg.jpg"
-  title: "WE BELIEVE IN GREAT IDEAS"
+  title: "Все виды сварочных работ в Мариуполе"
   content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
 
 
@@ -49,12 +49,12 @@ service:
 cta:
   enable: true
   bg_image: "images/call-to-action-bg.jpg"
-  title: "We design delightful digital experiences."
-  content: "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  title: "Все виды сварочных работ в Мариуполе"
+  content: "Гарантируем качество, скорость проведения работ, высокий профессионализм"
   button:
     enable: true
-    label: "Tell Us Your Story"
-    link: "contact/"
+    label: "Все услуги"
+    link: "project/"
 
 ############################# Funfacts ###############################
 funfacts:

@@ -37,3 +37,8 @@ will result in
 ```
 {{% date_l10n "2020-10-20" ":date_short" %}}
 ```
+- tel: <+79495102777>
+
+- mail: <march.bro@ya.ru>
+
+[Call Me!](tel:1111111)

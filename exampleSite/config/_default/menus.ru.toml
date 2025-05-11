@@ -12,7 +12,7 @@ url = "about/"
 weight = 2
 
 [[main]]
-name = "Проекты"
+name = "Виды работ"
 url = "project/"
 weight = 3
 
@@ -57,7 +57,7 @@ url = "about/"
 weight = 2
 
 [[footer]]
-name = "Проекты"
+name = "Виды работ"
 url = "project/"
 weight = 3
 
