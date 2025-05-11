@@ -1,5 +1,11 @@
 {{ define "main" }}
 
+<!-- call to action -->
+{{ if .Params.cta.enable }}
+{{ partial "cta.html" . }}
+{{ end }}
+<!-- /call to action -->
+
 <!-- banner -->
 {{ with .Params.banner }}
 {{ if .enable }}
@@ -78,12 +84,6 @@
 {{ partial "service.html" . }}
 {{ end }}
 <!-- /service -->
-
-<!-- call to action -->
-{{ if .Params.cta.enable }}
-{{ partial "cta.html" . }}
-{{ end }}
-<!-- /call to action -->
 
 <!-- funfacts -->
 {{ with .Params.funfacts }}
